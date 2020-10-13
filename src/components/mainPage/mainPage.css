@@ -1,0 +1,54 @@
+.mainPage .block{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.mainPage .block h1 {
+    margin-bottom: 95px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #104F95;
+}
+.flex-baseline{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.we_offer div{
+    width: 170px;
+    flex-grow: 1;
+}
+.we_offer div img{
+    margin: 0 auto;
+}
+.we_offer div p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #31283C;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width : 570px) {
+    .mainPage .block h1{
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .we_offer div{
+        width: 125px;
+    }
+    .we_offer div img{
+        width: 80%;
+    }
+    .we_offer div p{
+        font-size: 13px;
+        line-height: 14px;
+        padding: 0 5px;
+        text-align: center;
+        color: #31283C;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+  }
